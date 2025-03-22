@@ -1,5 +1,5 @@
 {
-    "token": "IHR_DISCORD_BOT_TOKEN",
+    "token": "YOUR_DISCORD_BOT_TOKEN",
     "allowedChannels": [
         "CHANNEL_ID_1",
         "CHANNEL_ID_2"
