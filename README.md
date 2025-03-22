@@ -1,36 +1,36 @@
 # Discord Code Obfuscator Bot
 
-Ein Discord-Bot, der Code in verschiedenen Programmiersprachen verschlüsselt.
+A Discord bot that obfuscates code in various programming languages.
 
-## Unterstützte Sprachen
+## Supported Languages
 - JavaScript/JS (.js)
 - CSS (.css)
 - HTML (.html, .htm)
 - Lua (.lua)
 
-## Systemanforderungen
-- Node.js Version 16.9.0 oder höher
+## System Requirements
+- Node.js Version 16.9.0 or higher
 - Discord.js v14
-- npm oder yarn
+- npm or yarn
 
 ## Installation
 
-1. Installieren Sie Node.js (mindestens Version 16.9.0)
-2. Klonen Sie dieses Repository
-3. Führen Sie `npm install` aus, um die Abhängigkeiten zu installieren
-4. Konfigurieren Sie den Bot in der `config.json`:
-   - Fügen Sie Ihren Discord Bot Token ein
-   - Fügen Sie die erlaubten Kanal-IDs hinzu
-   - Optional: Passen Sie die Einstellungen an
-5. Starten Sie den Bot mit `npm start`
+1. Install Node.js (minimum version 16.9.0)
+2. Clone this repository
+3. Run `npm install` to install dependencies
+4. Configure the bot in `config.json`:
+   - Add your Discord Bot Token
+   - Add allowed channel IDs
+   - Optional: Adjust settings
+5. Start the bot with `npm start`
 
-## Konfiguration
+## Configuration
 
-Die `config.json` enthält folgende Einstellungen:
+The `config.json` contains the following settings:
 
 ```json
 {
-    "token": "IHR_DISCORD_BOT_TOKEN",
+    "token": "YOUR_DISCORD_BOT_TOKEN",
     "allowedChannels": [
         "CHANNEL_ID_1",
         "CHANNEL_ID_2"
@@ -42,53 +42,53 @@ Die `config.json` enthält folgende Einstellungen:
 }
 ```
 
-### Einstellungen im Detail:
-- `token`: Ihr Discord Bot Token
-- `allowedChannels`: Array von Kanal-IDs, in denen der Bot aktiv sein soll
-- `settings.timeout`: Maximale Wartezeit für Benutzereingaben in Millisekunden (Standard: 30000)
-- `settings.tempDir`: Verzeichnis für temporäre Dateien (Standard: "temp")
+### Settings in Detail:
+- `token`: Your Discord Bot Token
+- `allowedChannels`: Array of channel IDs where the bot should be active
+- `settings.timeout`: Maximum wait time for user input in milliseconds (default: 30000)
+- `settings.tempDir`: Directory for temporary files (default: "temp")
 
-### Wie finde ich die Kanal-ID?
-1. Aktivieren Sie den Entwicklermodus in Discord (Einstellungen > App-Einstellungen > Erweitert > Entwicklermodus)
-2. Rechtsklick auf den gewünschten Kanal
-3. Wählen Sie "ID kopieren"
+### How to find Channel ID?
+1. Enable Developer Mode in Discord (Settings > App Settings > Advanced > Developer Mode)
+2. Right-click on the desired channel
+3. Select "Copy ID"
 
-## Verwendung
+## Usage
 
-Sie haben mehrere Möglichkeiten, Code zu verschlüsseln:
+You have several options to obfuscate code:
 
-### Option 1: Direkte Sprachbefehle
-1. Geben Sie einen der folgenden Befehle in einen erlaubten Discord-Kanal ein:
-   - `!js` oder `!javascript` für JavaScript
-   - `!css` für CSS
-   - `!html` für HTML
-   - `!lua` für Lua
-2. Laden Sie eine Datei hoch oder fügen Sie den Code ein
-3. Der Bot wird Ihnen die verschlüsselte Datei zurückgeben
+### Option 1: Direct Language Commands
+1. Enter one of the following commands in an allowed Discord channel:
+   - `!js` or `!javascript` for JavaScript
+   - `!css` for CSS
+   - `!html` for HTML
+   - `!lua` for Lua
+2. Upload a file or paste the code
+3. The bot will return your obfuscated file
 
-### Option 2: Universeller Befehl
-1. Geben Sie `!obfuscator` in einen erlaubten Discord-Kanal ein
-2. Wählen Sie die gewünschte Programmiersprache
-3. Laden Sie eine Datei hoch oder fügen Sie den Code ein
-4. Der Bot wird Ihnen die verschlüsselte Datei zurückgeben
+### Option 2: Universal Command
+1. Enter `!obfuscator` in an allowed Discord channel
+2. Select the desired programming language
+3. Upload a file or paste the code
+4. The bot will return your obfuscated file
 
 ## Features
-- Unterstützung für Datei-Uploads
-- Automatische Spracherkennung anhand der Dateiendung
-- Verbesserte Fehlerbehandlung
-- Keine automatischen Erwähnungen in Antworten
-- Temporäre Dateien werden automatisch gelöscht
-- Detaillierte Fehlerprotokolle
+- File upload support
+- Automatic language detection based on file extension
+- Improved error handling
+- No automatic mentions in responses
+- Temporary files are automatically deleted
+- Detailed error logging
 
-## Hinweise
-- Der Bot reagiert nur in den konfigurierten Kanälen
-- Die Wartezeit für Eingaben kann in der config.json angepasst werden
-- Bei ungültiger Syntax oder Fehlern wird eine Fehlermeldung angezeigt
-- Die verschlüsselte Datei wird automatisch mit der korrekten Dateiendung zurückgegeben
-- Unterstützte Dateiendungen: .js, .css, .html, .htm, .lua
-- Der Bot verwendet die neuesten Discord.js Features und Best Practices
+## Notes
+- The bot only responds in configured channels
+- Input timeout can be adjusted in config.json
+- Invalid syntax or errors will display an error message
+- The obfuscated file is automatically returned with the correct file extension
+- Supported file extensions: .js, .css, .html, .htm, .lua
+- The bot uses the latest Discord.js features and best practices
 
 ## Support
-Bei Fragen oder Problemen können Sie mich auf Discord kontaktieren:
+For questions or issues, you can contact me on Discord:
 - Discord Name: luke.official
-- Support Server: [Discord Server](https://discord.gg/kXf3G9DMPt) 
+- Support Server: [Discord Server](https://discord.gg/kXf3G9DMPt)
