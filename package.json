@@ -1,0 +1,21 @@
+{
+  "name": "discord-code-obfuscator",
+  "version": "1.0.0",
+  "description": "Ein Discord Bot zum Verschlüsseln von Code",
+  "main": "index.js",
+  "author": "Luke",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "javascript-obfuscator": "^4.1.0",
+    "cssnano": "^6.0.3",
+    "html-minifier-terser": "^7.2.0",
+    "luamin": "^1.0.1",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+} 

@@ -1,0 +1,11 @@
+{
+    "token": "IHR_DISCORD_BOT_TOKEN",
+    "allowedChannels": [
+        "CHANNEL_ID_1",
+        "CHANNEL_ID_2"
+    ],
+    "settings": {
+        "timeout": 30000,
+        "tempDir": "temp"
+    }
+} 
